@@ -221,7 +221,7 @@ h1  {
 .couch {
   float: left;
   width: 65%;
-  height: 75%;
+  height: 56%;
 }
 .couch::before {
   content: " ";
@@ -229,51 +229,57 @@ h1  {
   clear: both;
 }
 .couchGuy {
-  /*position: relative;
-  top:0;
-  left:0;*/
   background-image: url("../img/guyOrangeCouch.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }
 .couchGuyText {
   position: relative;
   left: 15px;
-  bottom:0;
+  top:60px;
   width
+}
+.rightMainArticles {
+  float: right;
+  width: 35%;
+  height: 56%;
+}
+.phoneGal {
+	float: right;
+  width: 100%;
+  height: 20%;
+}
+.phoneGal img {
+  max-width: 100%;
 }
 .phone {
   float: right;
-  width: 35%;
-  height: 37.5%;
-}
-.phoneGal {
-  /*position: relative;
-  top:0;
-  left:0;*/
-  background-image: url("../img/womanPhone.jpg");
-  background-size: cover;
-  background-position: center center;
+	background-color: blue;
   width: 100%;
-  height: 100%;
+  height: 20%;
+	padding: 1em;
+}
+.phoneGalText {
+	color: white;
+}
+.tabletGal {
+	float: right;
+	width: 100%;
+	height: 20%
+}
+.tabletGal img {
+  max-width: 100%;
 }
 .tablet {
   float: right;
-  width: 35%;
-  height: 37.5%;
-}
-.tabletGal {
-  /*position: relative;
-  top:0;
-  left:0;*/
-  background-image: url("../img/womanTablet.jpg");
-  background-size: cover;
-  background-position: center center;
   width: 100%;
-  height: 100%;
+  height: 20%;
+}
+.tableGalText {
+	color: white;
 }
 
 
