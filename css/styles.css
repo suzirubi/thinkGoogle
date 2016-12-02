@@ -128,10 +128,10 @@ table {
 
 /* For testing only */
 
-:not(body):not(html) {
+/*:not(body):not(html) {
   box-sizing:border-box;
   border:1px dashed #000;
-}
+}*/
 
 /*above is for testing only*/
 
@@ -168,6 +168,10 @@ p {
 
 
 /*****NAV*****/
+
+.fa-bars {
+	display: none;
+}
 .fa {
   float: right;
   font-size: 1.152em;
@@ -182,20 +186,24 @@ p {
   font-size: 1.1em;
   padding-top: 2px;
 }
+.logo {
+	width: 100%;
+	height: 60px;
+	background-image: url("../img/googleLogo.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+	background-position: 25px 15px;
+}
 .navLeft {
   float: left;
-  background-image: url("../img/googleLogo.png");
-  background-position: 25px 15px;
-  background-size: 57%;
-  background-repeat: no-repeat;
-  width: 30%;
+  width: 35%;
   height: 64px;
   padding-top: 15px;
 }
 .collapseLeft {
   float: right;
   display: inline-block;
-  padding-right: 2%;
+  padding-right: 4%;
 }
 .collapseLeft > aside > a {
   font-size: .85em;
@@ -205,9 +213,10 @@ p {
 }
 .navRight {
   float: right;
-  width: 70%;
+  width: 65%;
   height: 64px;
   padding-top: 15px;
+	padding-right: 20px;
 }
 .navBarRight {
   width: 100%;
@@ -223,7 +232,7 @@ p {
   padding-left: 2%;
   padding-right: 2%;
 }
-.navBarRight::after {
+.navBarRight::after > aside > a {
   content: " ";
   display: block;
   clear: both;
@@ -270,8 +279,9 @@ p {
   width: 35%;
   height: 28%;
 }
+.rightMainArticles2,
 .rightMainArticles h2 {
-	padding-bottom: .09em;
+	padding-bottom: .1em;
 }
 .phoneGal {
 	position: relative;
@@ -349,6 +359,28 @@ p {
 }
 
 @media only screen and (max-width: 1000px) {
+	.fa-bars {
+		display:inline;
+		font-stretch: ultra-expanded;
+	}
+	.navLeft,
+	.navRight::before {
+		content: " ";
+		display: block;
+		clear: both;
+	}
+	.navLeft {
+	 	width: 80%;
+	}
+	.navRight {
+		width: 20%;
+	}
+	.navBarRight > aside > a {
+		display:none;
+	}
+	.collapseLeft {
+		display: none;
+	}
 	.couch {
 	  width: 100%;
 	  height: 34%;
@@ -389,6 +421,17 @@ p {
 	.phone {
 	  width: 100%;
 	  height: 37%;
+		padding: .9em .7em;
+	}
+	.phoneGalText h2 {
+		font-size: 1.05em;
+		line-height: 1.23em;
+		font-weight: 300;
+		padding-left: .5em;
+	}
+	.phoneGalText p {
+		padding-left: .5em;
+		padding-top: .5em;
 	}
 	.rightMainArticles2 {
 		float: right;
@@ -402,5 +445,105 @@ p {
 	.tablet {
 	  width: 100%;
 	  height: 37%;
+		padding: .9em .7em;
+	}
+	.tabletGalText h2 {
+		font-size: 1.05em;
+		line-height: 1.23em;
+		font-weight: 300;
+		padding-left: .5em;
+	}
+	.tabletGalText p {
+		padding-left: .5em;
+		padding-top: .5em;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.hideCouch {
+		display: none;
+	}
+	.couch {
+		width: 100%;
+		height: 33%;
+	}
+	.couchGuyText {
+		position: relative;
+		top: 265px;
+		left: 0%;
+	  width: 94%;
+		height: 120px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0%;
+		margin-bottom: 0%;
+		padding: 1em;
+	}
+	.couchGuyText h1 {
+		font-size: 1.35em;
+		font-weight: 300;
+		line-height: 1.3em;
+	}
+	.couch,
+	.couch::after {
+		content: " ";
+		display: block;
+		clear: both;
+	}
+	.rightMainArticles,
+	.rightMainArticles2::before {
+		content: " ";
+		display: block;
+		clear: both;
+	}
+	.rightMainArticles,
+	.rightMainArticles2::after {
+		content: " ";
+		display: block;
+		clear: both;
+	}
+	.rightMainArticles {
+	  width: 100%;
+	  height: 7.75%;
+	}
+	.phoneGal {
+		float: left;
+		position: relative;
+	  width: 20%;
+	  height: 100%;
+	}
+	.phoneGal img {
+	  width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+	.phone {
+		float: right;
+	  width: 80%;
+	  height: 100%;
+		padding: .9em .7em;
+	}
+	.rightMainArticles2 {
+		width: 100%;
+		height: 7.75%;
+	}
+	.tabletGal {
+		float: left;
+		position: relative;
+		width: 20%;
+		height: 100%;
+	}
+	.tabletGal img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+	.tablet {
+		float: right;
+	  width: 80%;
+	  height: 100%;
+		padding: .9em .7em;
 	}
 }
