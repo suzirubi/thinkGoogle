@@ -135,7 +135,10 @@ table {
 
 /*above is for testing only*/
 
-
+.container {
+  width: 100vw;
+  height: 100vh;
+}
 
 body {
   color: #424242;
@@ -209,10 +212,61 @@ h1  {
   padding-left: 2%;
   padding-right: 2%;
 }
-.navBar.navBarRight::after {
+.navBarRight::after {
   content: " ";
-  display: table;
+  display: block;
   clear: both;
+}
+/*****MAIN****/
+.couch {
+  float: left;
+  width: 65%;
+  height: 75%;
+}
+.couch::before {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.couchGuy {
+  position: relative;
+  top:0;
+  left:0;
+  background-image: url("../img/guyOrangeCouch.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+.phone {
+  float: right;
+  width: 35%;
+  height: 37.5%;
+}
+.phoneGal {
+  position: relative;
+  top:0;
+  left:0;
+  background-image: url("../img/womanPhone.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+.tablet {
+  float: right;
+  width: 35%;
+  height: 37.5%;
+}
+.tabletGal {
+  position: relative;
+  top:0;
+  left:0;
+  background-image: url("../img/womanTablet.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
 }
 
 
