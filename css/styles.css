@@ -1,0 +1,97 @@
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-Thin.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-Thin.woff?v=1.0.0") format("woff"), url("../fonts/RobotoDraft-Thin.ttf?v=1.0.0") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-Light.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-Light.woff?v=1.0.0") format("woff"), url("../fonts/ight/RobotoDraft-Light.ttf?v=1.0.0") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-Regular.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-Regular.woff?v=1.0.0") format("woff"), url("../fonts/RobotoDraft-Regular.ttf?v=1.0.0") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-Regular.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-Regular.woff?v=1.0.0") format("woff"), url("../fonts/RobotoDraft-Regular.ttf?v=1.0.0") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-Italic.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-Italic.woff?v=1.0.0") format("woff"), url("../fonts/RobotoDraft-Italic.ttf?v=1.0.0") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-Italic.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-Italic.woff?v=1.0.0") format("woff"), url("../fonts/RobotoDraft-Italic.ttf?v=1.0.0") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+/* END Italic */
+/* BEGIN Medium */
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-Medium.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-Medium.woff?v=1.0.0") format("woff"), url("../fonts/RobotoDraft-Medium.ttf?v=1.0.0") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/Bold/RobotoDraft-Bold.woff2?v=1.0.0") format("woff2"), url("../fonts/Bold/RobotoDraft-Bold.woff?v=1.0.0") format("woff"), url("../fonts/Bold/RobotoDraft-Bold.ttf?v=1.0.0") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-Bold.woff2?v=1.0.0") format("woff2"), url("../fonts/Bold/RobotoDraft-Bold.woff?v=1.0.0") format("woff"), url("../fonts/Bold/RobotoDraft-Bold.ttf?v=1.0.0") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-BoldItalic.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-BoldItalic.woff?v=1.0.0") format("woff"), url("../fonts/RobotoDraft-BoldItalic.ttf?v=1.0.0") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-BoldItalic.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-BoldItalic.woff?v=1.0.0") format("woff"), url("../fonts/RobotoDraft-BoldItalic.ttf?v=1.0.0") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("./fonts/Black/RobotoDraft-Black.woff2?v=1.0.0") format("woff2"), url("./fonts/Black/RobotoDraft-Black.woff?v=1.0.0") format("woff"), url("./fonts/Black/RobotoDraft-Black.ttf?v=1.0.0") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+/*font-family: 'Roboto Slab', serif;*/
+
+
+/*end font css*/
+
+/* For testing only */
+
+:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+/*above is for testing only*/
+
+
+
+body {
+  color: #424242;
+  font-family: 'RobotoDraft','Helvetica Neue',Helvetica,Arial;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+h1  {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2em;
+}
+
+/*****NAV*****/
+
+.fa {
+  color: #787878;
+}
