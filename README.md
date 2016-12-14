@@ -1,5 +1,5 @@
 # CSS Week Two Independent Project
-_*Epicodus CSS Responsive Design Week Two Project, 12-1-16*_
+_*Epicodus CSS Responsive Design Week Two Project, 12-2-16*_
 
 by Suzi Rubino
 
